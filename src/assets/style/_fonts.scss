@@ -1,0 +1,38 @@
+// google font Raleway && Bree 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+
+@font-face {
+    font-family: 'Marta Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/marta/Marta_Regular.woff') format('woff'),
+        url('../fonts/marta/Marta_Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Marta Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/marta/Marta_Italic.woff') format('woff'),
+    url('../fonts/marta/Marta_Italic.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Marta Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/marta/Marta_Bold.woff') format('woff'),
+    url('../fonts/marta/Marta_Bold.otf') format('otf');
+}
+
+h1, h2, h3, h4, h5, h6, .font__bree-serif {
+    font-family: 'Bree Serif', serif;
+}
+
+.font__marta {
+    font-family: 'Marta Regular', 'Bree Serif', serif;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
