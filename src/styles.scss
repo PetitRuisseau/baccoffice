@@ -1,18 +1,48 @@
-$color-red: #980450;
+@import "shared";
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
     margin: 0;
     padding: 0;
-    
-    & > * {
-        width: 100%;
+
+    app-root {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        
+        & > * {
+            width: 100%;
+        }
     }
 }
 
-.globa__container {
+.global__container {
     max-width: 1020px;
     margin: 0 auto;
+}
+
+.global__title-underline {
+    display: inline-block;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        background: $color-pink;
+        content: '';
+        bottom: -0.3rem;
+        top: 50%;
+        left: -0.3rem;
+        right: -0.3rem;
+        z-index: -1;
+        opacity: 0.5;
+    }
+}
+
+.global__background-red {
+    background: $color-red;
+    color: $color-white;
+}
+
+.global__background-white {
+    background: $color-white;
+    color: $color-red;
 }
