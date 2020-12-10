@@ -1,0 +1,18 @@
+@import "shared";
+
+#contact .global__container {
+    display: flex;
+    justify-content: space-between;
+    .left-side {
+        background-image: url("/assets/img/agenda.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 48%;
+        height: 35rem;
+    }
+
+    .right-side {
+        width: 48%;
+        text-align: center;
+    }
+}
