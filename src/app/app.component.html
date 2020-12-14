@@ -1,8 +1,10 @@
 <header class="global__background-red">
-  <div class="global__container">
-    <img src="/assets/img/logoNoBackground.svg" />
+  <nav role="navigation" class="global__container">
+    <a href="/" title="Accueil">
+      <img src="/assets/img/logoNoBackground.svg" />
+    </a>
     <ul>
-      <li><a href="/#entete" title="Accueil">Accueil</a></li>
+      <li><a href="/" title="Accueil">Accueil</a></li>
       <li><a href="/#expertises" title="Mes expertises dans la gestion">Expertises</a></li>
       <li><a href="/#quisuisje" title="Présentation de mes competences de gestionaire">Qui suis-je ?</a></li>
       <li><a href="/#tarifs" title="Tarif de prestation">Tarifs</a></li>
@@ -16,12 +18,12 @@
         <img src="/assets/img/picto/email.svg"/>
       </a>
     </div>
-  </div>
+  </nav>
 </header>
 <main>
   <router-outlet></router-outlet>
 </main>
-<footer class="global__background-red">
-  <p><a>Mentions légales</a> - Tous droits réservés à Julie Bacconier</p>
+<footer role="contentinfo" class="global__background-red">
+  <p><a href="/mentions-legales" title="Mentions légales">Mentions légales</a> - Tous droits réservés à Julie Bacconier</p>
   <p>Siret 8888 1333 400 16</p>
 </footer>
